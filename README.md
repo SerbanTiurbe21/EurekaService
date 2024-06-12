@@ -33,4 +33,4 @@ După construirea imaginii, poți rula containerul folosind imaginea creată:
 
 Această comandă va porni un container din imaginea eureka-service, mapând portul 8761 al containerului pe portul 8761 al mașinii tale locale. Asta înseamnă că poți accesa serverul Eureka navigând la http://localhost:8761 în browserul tău.
 
-!Însă acest pas nu este necesar pentru că există un `Dockerfile` de unde se vor porni toate containerele.!
+:bangbang: Însă acest pas nu este necesar pentru că există un `Dockerfile` în repository-ul central de unde se vor porni toate containerele. :bangbang:
